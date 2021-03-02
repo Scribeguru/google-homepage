@@ -1,0 +1,41 @@
+  /*TheOdinProject Google stylesheet*/
+  
+  #goog {
+    display:flex;
+    justify-content: center;
+    margin-top: 230px;
+  }
+  #search1 {
+    display: block;
+    width: 50%;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30px;
+    padding: 12px;
+    border: 1px solid #dfe1e5;
+  }
+  #buttons{
+    display: grid;
+    justify-content: center;
+    margin-top: 25px;
+    grid-gap: 10px;
+  }
+  #gs{
+    justify-self: start;
+    grid-column-start: 1;
+    border: hidden;
+    padding: 12px;
+  }
+  #ifl{
+    justify-self: end;
+    grid-column-start: 2;
+    border: hidden;
+    padding: 12px;
+  }
+  #gs:hover{
+    border: 1px solid #939598;
+  }
+  #ifl:hover{
+    border: 1px solid #939598;
+  }
