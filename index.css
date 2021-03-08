@@ -3,17 +3,20 @@
   #goog {
     display:flex;
     justify-content: center;
-    margin-top: 230px;
+    margin-top: 200px;
   }
   #search1 {
     display: block;
-    width: 50%;
+    width: 600px;
     margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 30px;
     padding: 12px;
     border: 1px solid #dfe1e5;
+  }
+  #search1:hover{
+    box-shadow: 1px 2px 5px rgb(179, 179, 179);
   }
   #buttons{
     display: grid;
@@ -25,17 +28,85 @@
     justify-self: start;
     grid-column-start: 1;
     border: hidden;
-    padding: 12px;
+    padding: 11px;
+    border-radius: 5px;
   }
   #ifl{
     justify-self: end;
     grid-column-start: 2;
     border: hidden;
-    padding: 12px;
+    padding: 11px;
+    border-radius: 5px;
   }
-  #gs:hover{
-    border: 1px solid #939598;
+  #gs:hover, #ifl:hover{
+    border: 1px solid #dfe1e5;
+    background-color: #f8f9fa;
   }
-  #ifl:hover{
-    border: 1px solid #939598;
-  }
+  
+.topnav{
+  overflow: hidden;
+}
+.topnav a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding: 20px;
+  float: left;
+}
+.topnav a:hover{
+  text-decoration: underline;
+}
+#tr{
+  float: right;
+}
+#tr:hover{
+  text-decoration: underline;
+}
+#tndrop{
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 2px;
+  float: right;
+  border-radius:35px;
+}
+#tndrop:hover{
+  background-color: rgb(214, 210, 210);
+}
+.botnav{
+  display: flexbox;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+  background-color: #f2f2f2;
+}
+.botnav a{
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: #5b5c5e;
+  font-size: 13px;
+  padding: 15px;
+  float: left;
+}
+.botnav a:hover{
+  text-decoration: underline;
+  justify-content: space-around;
+}
+.cns{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#bl{
+  display: flex;
+  float: left;
+  padding-left: 15px;
+}
+#br{
+  display: flex;
+  float: right;
+  padding-right: 15px;
+}
