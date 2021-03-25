@@ -1,48 +1,6 @@
   /*TheOdinProject Google stylesheet*/
   
-  #goog {
-    display:flex;
-    justify-content: center;
-    margin-top: 200px;
-  }
-  #search1 {
-    display: block;
-    width: 600px;
-    margin-top: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 30px;
-    padding: 12px;
-    border: 1px solid #dfe1e5;
-  }
-  #search1:hover{
-    box-shadow: 1px 2px 5px rgb(179, 179, 179);
-  }
-  #buttons{
-    display: grid;
-    justify-content: center;
-    margin-top: 25px;
-    grid-gap: 10px;
-  }
-  #gs{
-    justify-self: start;
-    grid-column-start: 1;
-    border: hidden;
-    padding: 11px;
-    border-radius: 5px;
-  }
-  #ifl{
-    justify-self: end;
-    grid-column-start: 2;
-    border: hidden;
-    padding: 11px;
-    border-radius: 5px;
-  }
-  #gs:hover, #ifl:hover{
-    border: 1px solid #dfe1e5;
-    background-color: #f8f9fa;
-  }
-  
+ 
 .topnav{
   overflow: hidden;
 }
@@ -57,22 +15,7 @@
 .topnav a:hover{
   text-decoration: underline;
 }
-#tr{
-  float: right;
-}
-#tr:hover{
-  text-decoration: underline;
-}
-#tndrop{
-  margin-right: 10px;
-  margin-top: 5px;
-  padding: 2px;
-  float: right;
-  border-radius:35px;
-}
-#tndrop:hover{
-  background-color: rgb(214, 210, 210);
-}
+
 .botnav{
   display: flexbox;
   overflow: hidden;
@@ -100,13 +43,73 @@
   flex-wrap: wrap;
   width: 100%;
 }
+.br{
+  display: flex;
+  float: right;
+  padding-right: 15px;
+}
+.tr{
+  float: right;
+}
+.tr:hover{
+  text-decoration: underline;
+}
+
+.tndrop{
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 2px;
+  float: right;
+  border-radius:35px;
+}
 #bl{
   display: flex;
   float: left;
   padding-left: 15px;
 }
-#br{
-  display: flex;
-  float: right;
-  padding-right: 15px;
+#goog {
+  display:flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+#search1 {
+  display: block;
+  width: 600px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 30px;
+  padding: 12px;
+  border: 1px solid #dfe1e5;
+}
+#search1:hover{
+  box-shadow: 1px 2px 5px rgb(179, 179, 179);
+}
+#buttons{
+  display: grid;
+  justify-content: center;
+  margin-top: 25px;
+  grid-gap: 10px;
+}
+#gs{
+  justify-self: start;
+  grid-column-start: 1;
+  border: hidden;
+  padding: 11px;
+  border-radius: 5px;
+}
+#ifl{
+  justify-self: end;
+  grid-column-start: 2;
+  border: hidden;
+  padding: 11px;
+  border-radius: 5px;
+}
+#gs:hover, #ifl:hover{
+  border: 1px solid #dfe1e5;
+  background-color: #f8f9fa;
+}
+
+#tndrop:hover{
+  background-color: rgb(214, 210, 210);
 }
